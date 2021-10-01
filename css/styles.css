@@ -1,0 +1,34 @@
+*{
+    font-family: 'Montserrat';
+    color: #ffffff;
+}
+
+body{
+    background-color: #2d3436;
+}
+
+.contenedor{
+    margin: auto;
+    width: 100%;
+    height: 80vh;
+    background-color: #236274;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.general{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+.tabla{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.tabla :last-child{
+    display: none;
+}
